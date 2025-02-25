@@ -72,7 +72,7 @@ const translations = {
 };
 
 const loadLanguage = () => {
-    const savedLang = localStorage.getItem("selectedLang") || "en";
+    const savedLang = localStorage.getItem("selectedLang") || "ar";
     const langToggle = document.getElementById("language-toggle");
     langToggle.checked = savedLang === "ar";
     updatePageLanguage(savedLang);
